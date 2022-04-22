@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style type="text/css">
+            table {
+                border-collapse:collapse;
+            }
+            td {
+                border: 2px solid black;
+                padding:3px;
+            }
+            #hid 
+            {
+                display:none;
+            }
+            h1,#imgrid,h2,#result{
+                width: fit-content;
+                margin:0px auto 0px auto;
+            }
+            h1 {
+                background-color:palegoldenrod;
+                color:saddlebrown;
+                padding: 10px;
+                font-weight: 700;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+            h2 {
+                font-family:Arial, Helvetica, sans-serif;
+                color: coral;
+            }
+            .centre {
+                text-align: center;
+            }
+            #result {
+                font-family:cursive;
+                width:fit-content;
+                margin:0px auto 0px auto;
+                font-weight: 900;
+                border:2px solid orange;
+                padding: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Clear the Captcha</h1>
+        <br />
+        <br />
+        <h2>Pick and choose all the "<span id="obj"></span>" from the image-grid below</h2>
+        <br />
+        <div id="result">CLICK "SUBMIT" AFTER SELECTING YOUR CHOICES</div> 
+        <div id="hid">
+            <br />
+            <br />
+            <table id="imgrid">
+                <tr>
+                    <td><img class="Cycles" src='https://www.firefoxbikes.com/dw/image/v2/BGQH_PRD/on/demandware.static/-/Sites-HeroFirefox-Library/default/dw1a5b3d7b/ExploreFirefox/women1_new.jpg?sfrm=jpg&q=70' width='150' height='150' /></td>
+                    <td><img class="Bikes" src='https://i.ytimg.com/vi/0hnzrgOw-xM/maxresdefault.jpg' width='150' height='150' /></td>
+                    <td><img class="Planes" src='https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Egyptair.a330-200.su-gce.arp.jpg/1200px-Egyptair.a330-200.su-gce.arp.jpg' width='150' height='150' /></td>
+                </tr>
+                <tr>
+                    <td><img class="Bikes" src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbQi6smjGolCgY-7KsdVLBC6f6DXZ3JLXotw&usqp=CAU' width='150' height='150' /></td>
+                    <td><img class="Planes" src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIxZQAMLMOTEOScRFeUHXco5bQuKSyg_IhsQ&usqp=CAU' width='150' height='150' /></td>
+                    <td><img class="Cycles" src='https://cdn.pixabay.com/photo/2015/05/28/22/29/bicycle-788733__340.jpg' width='150' height='150' /></td>
+                </tr>
+                <tr>
+                    <td><img class="Planes" src='https://www.njpartyshop.com/pub/media/catalog/product/cache/c687aa7517cf01e65c009f6943c2b1e9/a/e/aeroplane_shape_foil_balloon.jpg' width='150' height='150' /></td>
+                    <td><img class="Cycles" src='https://ychef.files.bbci.co.uk/1376x774/p07phq4b.jpg' width='150' height='150' /></td>
+                    <td><img class="Bikes" src='https://i0.wp.com/apkmody.io/wp-content/uploads/2021/06/Bike-Racing-3D-MOD-APK-cover.jpg?fit=1440%2C721&ssl=1' width='150' height='150' /></td>
+                </tr>
+            </table>
+        </div>
+        <br />
+        <br />
+        <div class="centre"><input type="button" id="run" value="Run the Captcha"/></div>
+        <div class="centre"><input type="button" id="hid" class="drun" value="Submit"/></div>
+        <script src="test3.js" type="text/javascript"></script>
+    </body>
+</html>
